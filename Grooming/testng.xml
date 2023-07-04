@@ -1,0 +1,20 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="2" name="TestA">
+    <classes>
+      <class name="com.actitime.testcase.EndToEnd">
+      <methods>
+      <include name="createCustomer"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test thread-count="2" name="TestB">
+    <classes>
+      <class name="com.actitime.testcase.EndToEnd">
+      <methods>
+      <include name="deleteCustomer"/>
+     </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 
