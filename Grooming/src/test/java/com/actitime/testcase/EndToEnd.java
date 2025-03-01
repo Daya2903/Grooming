@@ -27,6 +27,7 @@ public void createCustomer() throws Exception {
 		String title = t.getCustomerTitle().getText();
 		String expectedTitle="HDFC_001";
 		Assert.assertEquals(title, expectedTitle);
+	System.out.println();
 	}
 	@Test(enabled=false)
 	public void deleteCustomer() throws InterruptedException {
